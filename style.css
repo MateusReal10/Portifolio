@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Adicionando estilos para alinhar as divs horizontalmente */
+#projetos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  flex-basis: 300px;
+  margin: 10px;
+}
+
+#contato{
+  background-color: black;
+  color: #fff;
+}
+
+.cntt{
+  list-style: none;
+}
+
+/* Adicionando estilos para tornar o layout responsivo */
+@media (max-width: 768px) {
+  header {
+      padding: 10px;
+  }
+
+  nav ul li {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  .project {
+      flex-basis: 100%;
+  }
+}
+
+
+/* Restante do CSS anterior... */
+
+.project-link {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.project-link img {
+  width: 100%;
+  height: auto;
+}
+
+p{
+  text-align: center;
+}
+
+.imggrd{
+  border-radius: 10px;
+  object-fit: fill;
+}
+
+#fusion{
+  height: 163px;
+}
+
+#descrição{
+  font-family: Arial, Helvetica, sans-serif;
+}
